@@ -3,7 +3,9 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:padding="8dp">
+    android:padding="8dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/selector_row">
 
     <ImageView
         android:id="@+id/list_item_expand_arrow"
@@ -11,13 +13,15 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_margin="8dp"
+        android:gravity="center_vertical"
         android:src="@drawable/chevron_right" />
 
     <TextView
         android:id="@+id/list_group_text_id"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:paddingLeft="16dp"
-        android:textAppearance="?android:attr/textAppearanceListItemSmall"/>
+        android:paddingLeft="8dp"
+        android:gravity="center_vertical"/>
+        <!--android:textAppearance="?android:attr/textAppearanceListItemSmall"/-->
 
 </LinearLayout>

@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:id="@+id/search"
+    <!--item android:id="@+id/search"
         android:title="@string/search_title"
         android:orderInCategory="1"
         android:icon="@drawable/magnify"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="ifRoom"/-->
+
+    <!--item android:id="@+id/back"
+        android:title="@string/back_title"
+        android:orderInCategory="1"
+        android:icon="@drawable/arrow_left"
+        app:showAsAction="ifRoom"/-->
 </menu>

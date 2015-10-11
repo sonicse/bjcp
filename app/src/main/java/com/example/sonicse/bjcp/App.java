@@ -14,6 +14,8 @@ public class App extends Application {
 
         VectorDrawableCompat.enableResourceInterceptionFor(getResources(),
                 R.drawable.magnify,
-                R.drawable.chevron_right);
+                R.drawable.chevron_right,
+                R.drawable.chevron_down,
+                R.drawable.arrow_left);
     }
 }

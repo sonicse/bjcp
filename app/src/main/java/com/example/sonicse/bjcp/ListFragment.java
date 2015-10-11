@@ -66,40 +66,23 @@ public class ListFragment extends Fragment
 
         mAdapter.setOnClickListener(new ListAdapter.OnClickListener() {
             @Override
-            public void onGroupClick(int position) {
-                //String item = (String)mAdapter.getChild(groupPosition, childPosition);
-
-                Intent intent = new Intent(getActivity(), DetailActivity.class);
-                //intent.putExtra("resourceId", mData.get(item));
-                intent.putExtra("resourceId", "type_1A_detail");
-                startActivity(intent);
+            public void onGroupClick(int group) {
             }
 
-            public void onItemClick(int position) {
-                //String item = (String)mAdapter.getChild(groupPosition, childPosition);
+            public void onItemClick(int group, int item) {
+                String str = mAdapter.getItem(group, item);
 
                 Intent intent = new Intent(getActivity(), DetailActivity.class);
-                //intent.putExtra("resourceId", mData.get(item));
-                intent.putExtra("resourceId", "type_1B_detail");
+                intent.putExtra("resourceId", mData.get(str));
                 startActivity(intent);
+
+                getActivity().overridePendingTransition(R.anim.right_slide_in, R.anim.right_slide_out);
             }
         });
 
+        mRecyclerView.addItemDecoration(new ListDividerDecoration(getActivity()));
         mRecyclerView.setAdapter(mAdapter);
 
         return view;
     }
-
-    /*public boolean onChildClick(ExpandableListView parent, View v,
-                                int groupPosition, int childPosition, long id)
-    {
-        String item = (String)_adapter.getChild(groupPosition, childPosition);
-
-        Intent intent = new Intent(getActivity(), DetailActivity.class);
-        intent.putExtra("resourceId", mData.get(item));
-        startActivity(intent);
-
-        return true;
-    }
-    */
 }

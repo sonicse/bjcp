@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#FFC107</color>
-    <color name="colorPrimaryDark">#008a9a</color>
-    <color name="mainBackground">#e2e2e2</color>
+    <color name="colorPrimaryDark">#FFA000</color>
+    <!--color name="mainBackground">#e2e2e2</color-->
     <color name="colorWhite">#ffffff</color>
+    <color name="highlight">#ffecb3</color>
+    <color name="colorText">#212121</color>
+    <color name="colorTextSecondary">#727272</color>
+    <color name="colorDivider">#B6B6B6</color>
+    <color name="colorIcon">#727272</color>
+    <color name="colorPrimaryLight">#FFF8E1</color>
 </resources>

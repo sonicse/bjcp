@@ -4,6 +4,11 @@
         <item name="android:colorPrimary">@color/colorPrimary</item>
         <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="android:colorControlNormal">@color/colorWhite</item>
-        <item name="android:textColorPrimary">@color/abc_primary_text_material_light</item>
+        <item name="android:textColorPrimary">@color/colorText</item>
+        <item name="android:textColorSecondary">@color/colorTextSecondary</item>
+    </style>
+
+    <style name="ToolbarIconColor" parent="AppTheme">
+        <item name="android:textColorSecondary">@color/colorText</item>
     </style>
 </resources>
