@@ -1,10 +1,12 @@
-package com.example.sonicse.bjcp;
+package com.sonicse.bjcp;
 
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+
+import com.sonicse.bjcp.R;
 
 /**
  * Created by sonicse on 11.10.15.

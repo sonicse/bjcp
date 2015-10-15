@@ -1,4 +1,4 @@
-package com.example.sonicse.bjcp;
+package com.sonicse.bjcp;
 
 import android.app.Fragment;
 import android.content.Intent;
@@ -9,6 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.sonicse.bjcp.R;
 
 /**
  * Created by sonicse on 15.09.15.

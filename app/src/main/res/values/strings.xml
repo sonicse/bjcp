@@ -1,10 +1,13 @@
 <resources>
 
     <string name="app_name">BJCP Cтили пива</string>
+    <string name="about_copyright">All style guidlines material is Copyright 2008, BJCP, Inc. Used with permission.</string>
+    <string name="about_translater">За перевод спасибо Киму Афасижеву.</string>
 
     <string name="resource_not_found">Resource not found</string>
     <string name="search_title">Search</string>
     <string name="back_title">Back</string>
+    <string name="about_title">About</string>
 
     <string name = "type_1">1. СВЕТЛЫЙ ЛАГЕР</string>
 

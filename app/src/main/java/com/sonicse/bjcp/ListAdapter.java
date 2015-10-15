@@ -1,4 +1,4 @@
-package com.example.sonicse.bjcp;
+package com.sonicse.bjcp;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -15,6 +15,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.sonicse.bjcp.R;
 
 /**
  * Created by sonicse on 16.09.15.
