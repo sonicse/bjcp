@@ -3,6 +3,9 @@
     <string name="app_name">BJCP Cтили пива</string>
     <string name="about_copyright">All style guidlines material is Copyright 2008, BJCP, Inc. Used with permission.</string>
     <string name="about_translater">За перевод спасибо Киму Афасижеву.</string>
+    <string name="not_enough_search_string_len">Минимальное количество символов для поиска 3</string>
+    <string name="title_activity_search_results">Результаты для</string>
+    <string name="no_search_results">ничего не найдено</string>
 
     <string name="resource_not_found">Resource not found</string>
     <string name="search_title">Search</string>

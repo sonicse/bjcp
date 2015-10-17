@@ -1,41 +1,38 @@
 package com.sonicse.bjcp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.view.MenuItem;
-
-import com.sonicse.bjcp.R;
+import android.view.View;
 
 /**
- * Created by sonicse on 15.09.15.
+ * Created by sonicse on 17.10.15.
  */
-
-public class DetailActivity extends AppCompatActivity {
+public class SearchActivity extends AppCompatActivity {
 
     private Toolbar mToolbar;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail);
+        setContentView(R.layout.activity_search);
 
         initToolbar();
-    }
-
-    @Override
-    public void onBackPressed()
-    {
-        super.onBackPressed();
-        overridePendingTransition(R.anim.right_slide_in, R.anim.right_slide_out);
     }
 
     private void initToolbar()
     {
         mToolbar = (Toolbar)findViewById(R.id.toolbar);
-        mToolbar.inflateMenu(R.menu.menu);
+
+        Intent intent = getIntent();
+        String searchText = intent.getStringExtra("searchText");
+        String title = getString(R.string.title_activity_search_results)
+                + " '" + searchText + "'";
+
+        mToolbar.setTitle(title);
 
         setSupportActionBar(mToolbar);
         ActionBar actionBar = getSupportActionBar();
@@ -46,12 +43,10 @@ public class DetailActivity extends AppCompatActivity {
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu, menu);
-
-        menu.findItem(R.id.search).setVisible(false);
-
-        return super.onCreateOptionsMenu(menu);
+    public void onBackPressed()
+    {
+        super.onBackPressed();
+        overridePendingTransition(R.anim.right_slide_in, R.anim.right_slide_out);
     }
 
     @Override
@@ -59,10 +54,6 @@ public class DetailActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case (android.R.id.home): {
                 onBackPressed();
-                return true;
-            }
-            case (R.id.about): {
-                AboutDialog.show(this);
                 return true;
             }
             default:

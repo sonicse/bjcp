@@ -10,31 +10,30 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.sonicse.bjcp.R;
-
 /**
  * Created by sonicse on 15.09.15.
  */
 public class DetailFragment extends Fragment {
 
-    TextView _textView;
+    TextView mTextView;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_detail, container, false);
 
-        _textView = (TextView) view.findViewById(R.id.text_view);
+        mTextView = (TextView) view.findViewById(R.id.text_view);
 
         Intent intent = getActivity().getIntent();
         String resourceId = intent.getStringExtra("resourceId");
+        String searchText = intent.getStringExtra("searchText");
 
-        setResource(resourceId);
+        setResource(resourceId, searchText);
 
         return view;
     }
 
-    public void setResource(String resourceId)
+    public void setResource(String resourceId, String searchText)
     {
         int iResourceId = getResources().getIdentifier(resourceId, "string", getActivity().getPackageName());
 
@@ -45,10 +44,12 @@ public class DetailFragment extends Fragment {
 
         String text = getString(iResourceId);
 
-        Spanned spannedText = Html.fromHtml(text/*, htmlImageGetter, htmlTagHandler*/);
+        //Spanned spannedText = Html.fromHtml(text/*, htmlImageGetter, htmlTagHandler*/);
+        Spanned spannedText = Html.fromHtml(highlightText(text, searchText));
+
         //Spannable reversedText = revertSpanned(spannedText);
 
-        _textView.setText(spannedText);
+        mTextView.setText(spannedText);
     }
 
     /*
@@ -107,4 +108,35 @@ public class DetailFragment extends Fragment {
         }
     }
     */
+
+    private static String highlightText(String text, String query) {
+
+        if (query.isEmpty()) {
+            return text;
+        }
+
+        StringBuilder formatted = new StringBuilder();
+        String subString = "";
+        int queryLength = query.length();
+        int i = 0;
+
+        while (i < text.length()) {
+            if ((i + queryLength) < text.length()) {
+                subString = text.substring(i, i + queryLength);
+            }
+
+            if (((i + queryLength) < text.length()) && query.equalsIgnoreCase(subString)) {
+                formatted.append("<font color='red'>");
+                formatted.append(subString);
+                formatted.append("</font>");
+                i += (queryLength - 1);
+            }
+            else {
+                formatted.append(text.charAt(i));
+            }
+            i++;
+        }
+
+        return formatted.toString();
+    }
 }

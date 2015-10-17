@@ -1,36 +1,37 @@
 package com.sonicse.bjcp;
 
 import android.content.Intent;
-import android.support.v4.app.Fragment;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.sonicse.bjcp.R;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
 /**
- * Created by sonicse on 15.09.15.
+ * Created by sonicse on 17.10.15.
  */
-public class ListFragment extends Fragment
-{
-    HashMap<String, String> mData;
+public class SearchFragment extends Fragment {
 
     private RecyclerView mRecyclerView;
-    private ListAdapter mAdapter;
     private RecyclerView.LayoutManager mLayoutManager;
+    private SearchAdapter mAdapter;
+    private List<String> mData;
+    private List<String> mTitles;
 
-    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
-        View view = inflater.inflate(R.layout.fragment_list, container, false);
+        Intent intent = getActivity().getIntent();
+        final String searchText = intent.getStringExtra("searchText");
+
+        View view = inflater.inflate(R.layout.fragment_search, container, false);
+
         mRecyclerView = (RecyclerView) view.findViewById(R.id.list);
         mRecyclerView.setHasFixedSize(true);
 
@@ -41,42 +42,43 @@ public class ListFragment extends Fragment
 
         String[] group_ids = res.getStringArray(R.array.group_ids);
 
-        List<String> groups = new ArrayList<String>();
-        HashMap<String, List<String>> items = new HashMap<String, List<String>>();
-        mData = new HashMap<String, String>();
+        mData = new ArrayList<String>();
+        mTitles = new ArrayList<String>();
 
         for (String group_id : group_ids)
         {
-            String group_title = res.getString(res.getIdentifier(group_id, "string", getActivity().getPackageName()));
-            groups.add(group_title);
-
-            List<String> childs = new ArrayList<String>();
+            //String group_title = res.getString(res.getIdentifier(group_id, "string", getActivity().getPackageName()));
             String[] child_ids = res.getStringArray(res.getIdentifier(group_id + "_group", "array", getActivity().getPackageName()));
 
             for (String child_id : child_ids)
             {
-                String child_title = res.getString(res.getIdentifier(child_id, "string", getActivity().getPackageName()));
+                String resourceId = child_id + "_detail";
+                int iResourceId = getResources().getIdentifier(resourceId, "string", getActivity().getPackageName());
 
-                childs.add(child_title);
-                mData.put(child_title, child_id + "_detail");
+                if (iResourceId == 0)
+                {
+                    continue;
+                }
+
+                String text = getString(iResourceId);
+
+                if (text.toLowerCase().indexOf(searchText.toLowerCase()) > -1) {
+                    String child_title = res.getString(res.getIdentifier(child_id, "string", getActivity().getPackageName()));
+                    mTitles.add(child_title);
+                    mData.add(resourceId);
+                }
             }
-
-            items.put(group_title, childs);
         }
 
-        mAdapter = new ListAdapter(groups, items);
+        mAdapter = new SearchAdapter(mTitles);
 
-        mAdapter.setOnClickListener(new ListAdapter.OnClickListener() {
+        mAdapter.setOnClickListener(new SearchAdapter.OnClickListener() {
             @Override
-            public void onGroupClick(int group) {
-            }
-
-            public void onItemClick(int group, int item) {
-                String str = mAdapter.getItem(group, item);
+            public void onItemClick(int position) {
 
                 Intent intent = new Intent(getActivity(), DetailActivity.class);
-                intent.putExtra("resourceId", mData.get(str));
-                intent.putExtra("searchText", "");
+                intent.putExtra("resourceId", mData.get(position));
+                intent.putExtra("searchText", searchText);
                 startActivity(intent);
 
                 getActivity().overridePendingTransition(R.anim.right_slide_in, R.anim.right_slide_out);
