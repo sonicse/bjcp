@@ -6,14 +6,39 @@
     <ScrollView
         android:id="@+id/scroll_view"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        >
+        android:layout_height="fill_parent">
+
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
         <TextView
             android:id="@+id/text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="16dp"
             android:text="Content" />
+
+        <TextView
+            android:id="@+id/srm_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="srm color:" />
+
+        <ImageView
+            android:id="@+id/srm_image"
+            android:layout_width="fill_parent"
+            android:layout_height="56dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_vertical"
+            android:scaleType="fitXY"/>
+
+        </LinearLayout>
+
     </ScrollView>
 
 </LinearLayout>

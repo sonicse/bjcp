@@ -10,4 +10,46 @@
     <color name="colorDivider">#B6B6B6</color>
     <color name="colorIcon">#727272</color>
     <color name="colorPrimaryLight">#FFF8E1</color>
+
+    <color name="srm_1">#ffe699</color>
+    <color name="srm_2">#ffd878</color>
+    <color name="srm_3">#ffca5a</color>
+    <color name="srm_4">#ffbf42</color>
+    <color name="srm_5">#fbb123</color>
+    <color name="srm_6">#f8a600</color>
+    <color name="srm_7">#f39c00</color>
+    <color name="srm_8">#ea8f00</color>
+    <color name="srm_9">#e58500</color>
+    <color name="srm_10">#de7c00</color>
+    <color name="srm_11">#d77200</color>
+    <color name="srm_12">#cf6900</color>
+    <color name="srm_13">#cb6200</color>
+    <color name="srm_14">#c35900</color>
+    <color name="srm_15">#bb5100</color>
+    <color name="srm_16">#b54c00</color>
+    <color name="srm_17">#b04500</color>
+    <color name="srm_18">#a63e00</color>
+    <color name="srm_19">#a13700</color>
+    <color name="srm_20">#9b3200</color>
+    <color name="srm_21">#952d00</color>
+    <color name="srm_22">#8e2900</color>
+    <color name="srm_23">#882300</color>
+    <color name="srm_24">#821e00</color>
+    <color name="srm_25">#7b1a00</color>
+    <color name="srm_26">#771900</color>
+    <color name="srm_27">#701400</color>
+    <color name="srm_28">#6a0e00</color>
+    <color name="srm_29">#660d00</color>
+    <color name="srm_30">#5e0b00</color>
+    <color name="srm_31">#5a0a02</color>
+    <color name="srm_32">#600903</color>
+    <color name="srm_33">#520907</color>
+    <color name="srm_34">#4c0505</color>
+    <color name="srm_35">#470606</color>
+    <color name="srm_36">#440607</color>
+    <color name="srm_37">#3f0708</color>
+    <color name="srm_38">#3b0607</color>
+    <color name="srm_39">#3a070b</color>
+    <color name="srm_40">#36080a</color>
+
 </resources>

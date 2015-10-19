@@ -6,8 +6,8 @@
     <string name="not_enough_search_string_len">Минимальное количество символов для поиска 3</string>
     <string name="title_activity_search_results">Результаты для</string>
     <string name="no_search_results">ничего не найдено</string>
-
-    <string name="resource_not_found">Resource not found</string>
+    <string name="resource_not_found">Описание не найдено</string>
+    <string name="srm_not_found">Цвет стиля (SRM) не найден</string>
     <string name="search_title">Search</string>
     <string name="back_title">Back</string>
     <string name="about_title">About</string>
@@ -396,6 +396,10 @@
 <b>SRM:</b> 2 - 3<br>
 <b>ABV:</b> 2.8 - 4.2%<br><br>
 <b>Коммерческие примеры:</b> Bitburger Light, Sam Adams Light, Heineken Premium Light, Miller Lite, Bud Light, Coors Light, Baltika #1 Light, Old Milwaukee Light, Amstel Light]]></string>
+    <integer-array name="type_1A_detail_srm">
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
 
     <string name="type_1B_detail" formatted="false"><![CDATA[
 <h1>1B. Стандартный американский лагер - Standard American Lager</h1>
@@ -413,6 +417,10 @@
 <b>SRM:</b> 2 - 4<br>
 <b>ABV:</b> 4.2 - 5.1%<br><br>
 <b>Коммерческие примеры:</b>Miller High Life, Budweiser, Kirin Lager, Molson Golden, Corona Extra, Foster\'s Lager]]></string>
+    <integer-array name="type_1B_detail_srm">
+        <item>2</item>
+        <item>4</item>
+    </integer-array>
 
     <string name="type_1C_detail" formatted="false"><![CDATA[
 <h1>1C. Американский премиум лагер - Premium American Lager</h1>
@@ -430,6 +438,10 @@
 <b>SRM:</b> 2 - 6<br>
 <b>ABV:</b> 4.7 - 6%<br><br>
 <b>Коммерческие примеры:</b> Miller Genuine Draft, Michelob, Coors Extra Gold, Heineken, Beck\'s, Stella Artois, Singha]]></string>
+    <integer-array name="type_1C_detail_srm">
+        <item>2</item>
+        <item>6</item>
+    </integer-array>
 
     <string name="type_1D_detail" formatted="false"><![CDATA[
 <h1>1D. Мюнхенское светлое - Munich Helles (мюних хеллес)</h1>
@@ -448,6 +460,10 @@
 <b>SRM:</b> 3 - 5<br>
 <b>ABV:</b> 4.7 - 5.4%<br><br>
 <b>Коммерческие примеры:</b> Hacker-Pschorr Mьnchner Helles, Paulaner Premium Lager, Spaten Premium Lager, Andechser Hell, Augustiner Lagerbier Hell, Weihenstephaner Original, Stoudt\'s Gold Lager]]></string>
+    <integer-array name="type_1D_detail_srm">
+        <item>3</item>
+        <item>5</item>
+    </integer-array>
 
     <string name="type_1E_detail" formatted="false"><![CDATA[
 <h1>1E. Дортмундское экспортное - Dortmunder Export (дортмундер экспорт)</h1>
@@ -466,6 +482,10 @@
 <b>SRM:</b> 4 - 6<br>
 <b>ABV:</b> 4.8 - 6.0%<br><br>
 <b>Коммерческие примеры:</b> DAB Export, Dortmunder Union Export, Dortmunder Kronen, Ayinger Jahrhundert, Great Lakes Dortmunder Gold, Saratoga Lager, Dominion Lager, Gordon Biersch Golden Export]]></string>
+    <integer-array name="type_1E_detail_srm">
+        <item>4</item>
+        <item>6</item>
+    </integer-array>
 
     <string name="type_2A_detail" formatted="false"><![CDATA[
 <h1>2A. Немецкий пильзнер (Пильз) - German Pilsner (Pils)</h1>
@@ -484,6 +504,10 @@
 <b>SRM:</b> 2 - 5<br>
 <b>ABV:</b> 4.4 - 5.2%<br><br>
 <b>Коммерческие примеры:</b> Bitburger, Warsteiner, Kцnig Pilsener, Jever Pils, Holsten Pils, Spaten Pils, Victory Prima Pils, Brooklyn Pilsner]]></string>
+    <integer-array name="type_2A_detail_srm">
+        <item>2</item>
+        <item>5</item>
+    </integer-array>
 
     <string name="type_2B_detail" formatted="false"><![CDATA[
 <h1>2B. Богемский Пильзнер - Bohemian Pilsener</h1>
@@ -502,6 +526,10 @@
 <b>SRM:</b> 3.5 - 6<br>
 <b>ABV:</b> 4.2 - 5.4%<br><br>
 <b>Коммерческие примеры:</b> Pilsner Urquell, Budweiser Budvar (Czechvar в США), Czech Rebel, Staropramen, Gambrinus Pilsner, Dock Street Bohemian Pilsner]]></string>
+    <integer-array name="type_2B_detail_srm">
+        <item>3</item>
+        <item>6</item>
+    </integer-array>
 
     <string name="type_2C_detail" formatted="false"><![CDATA[
 <h1>2C. Классический американский пильзнер - Classic American Pilsner</h1>
@@ -520,6 +548,10 @@
 <b>SRM:</b> 3 - 6<br>
 <b>ABV:</b> 4.5 - 6%<br><br>
 <b>Коммерческие примеры:</b> Иногда готовится по случаю пивными ресторанами и микропивоварнями.]]></string>
+    <integer-array name="type_2C_detail_srm">
+        <item>3</item>
+        <item>6</item>
+    </integer-array>
 
     <string name="type_3A_detail" formatted="false"><![CDATA[
 <h1>3A. Венский лагер - Vienna Lager</h1>
@@ -538,6 +570,10 @@
 <b>SRM:</b> 10 - 16<br>
 <b>ABV:</b> 4.5 - 5.7%<br><br>
 <b>Коммерческие примеры:</b> Great Lakes Eliot Ness (необычно  своей крепостью в 6.2% и горечью в 35 IBUs), Gosser Dark, Noche Buena, Negra Modelo, Samuel Adams Vienna Style Lager, Old Dominion Aviator Amber Lager, Gordon Biersch Vienna Lager, Capital Wisconsin Amber]]></string>
+    <integer-array name="type_3A_detail_srm">
+        <item>10</item>
+        <item>16</item>
+    </integer-array>
 
     <string name="type_3B_detail" formatted="false"><![CDATA[
 <h1>3B. Октоберфест/мерцен (мартовское) - Oktoberfest/Marzen</h1>
@@ -556,6 +592,10 @@
 <b>SRM:</b> 7 - 14<br>
 <b>ABV:</b> 4.8 - 5.7%<br><br>
 <b>Коммерческие примеры:</b> Paulaner Oktoberfest, Hacker-Pschorr Original Oktoberfest, Ayinger Oktoberfest-Mдrzen, Hofbrдu Oktoberfest, Spaten Oktoberfest, Eggenberger Mдrzen, Goose Island Oktoberfest, Capital Oktoberfest, Gordon Biersch Mдrzen, Samuel Adams Oktoberfest (немного необычно из-за применяемого позднего охмеления).]]></string>
+    <integer-array name="type_3B_detail_srm">
+        <item>7</item>
+        <item>14</item>
+    </integer-array>
 
     <string name="type_4A_detail" formatted="false"><![CDATA[
 <h1>4A. Темный американский лагер - Dark American Lager</h1>
@@ -573,6 +613,10 @@
 <b>SRM:</b> 14 - 22<br>
 <b>ABV:</b> 4.2 - 6%<br><br>
 <b>Коммерческие примеры:</b> Dixie Blackened Voodoo, Shiner Bock, San Miguel Dark, Beck\'s Dark, Saint Pauli Girl Dark, Warsteiner Dunkel, Crystal Diplomat Dark Beer]]></string>
+    <integer-array name="type_4A_detail_srm">
+        <item>14</item>
+        <item>22</item>
+    </integer-array>
 
     <string name="type_4B_detail" formatted="false"><![CDATA[
 <h1>4B. Мюнхенское темное - Munich Dunkel (мюних дункель)</h1>
@@ -591,6 +635,10 @@
 <b>SRM:</b> 14 - 28<br>
 <b>ABV:</b> 4.5 - 5.6%<br><br>
 <b>Коммерческие примеры:</b> Ayinger Altbairisch Dunkel, Hacker-Pschorr Alt Munich Dark, Paulaner Alt Mьnchner Dunkel, Weltenburger Kloster Barock-Dunkel, Penn Dark Lager, Capital Munich Dark, Harpoon Munich-type Dark Beer, Gordon Biersch Dunkels, Dinkel Acker Dark]]></string>
+    <integer-array name="type_4B_detail_srm">
+        <item>14</item>
+        <item>28</item>
+    </integer-array>
 
     <string name="type_4C_detail" formatted="false"><![CDATA[
 <h1>4C. Щварцбир (черное пиво) - Schwarzbier (Black Beer)</h1>
@@ -609,6 +657,10 @@
 <b>SRM:</b> 17 - 30+
 <b>ABV:</b> 4.4 - 5.4%<br><br>
 <b>Коммерческие примеры:</b> Kцstritzer Schwarzbier, Kulmbacher Mцnchshof Premium Schwarzbier, Einbecker Schwarzbier, Weeping Radish Black Radish Dark Lager, Sprecher Black Bavarian, Sapporo Black Beer]]></string>
+    <integer-array name="type_4C_detail_srm">
+        <item>17</item>
+        <item>30</item>
+    </integer-array>
 
     <string name="type_5A_detail" formatted="false"><![CDATA[
 <h1>5A. Майбок/хеллес бок (майский/светлый бок) - Maibock/Helles Bock</h1>
@@ -627,6 +679,10 @@
 <b>SRM:</b> 6 - 11<br>
 <b>ABV:</b> 6.3 - 7.4%<br><br>
 <b>Коммерческие примеры:</b> Ayinger Maibock, Hacker-Pschorr Hubertus Bock, Einbecker Mai-Urbock, Augustiner Hellerbock, Hofbrau Maibock, Capital Maibock, Victory St. Boisterous, Gordon Biersch Blonde Bock]]></string>
+    <integer-array name="type_5A_detail_srm">
+        <item>6</item>
+        <item>11</item>
+    </integer-array>
 
     <string name="type_5B_detail" formatted="false"><![CDATA[
 <h1>5B. Традиционный бок - Traditional Bock</h1>
@@ -645,6 +701,10 @@
 <b>SRM:</b> 14 - 22<br>
 <b>ABV:</b> 6.3 - 7.2%<br><br>
 <b>Коммерческие примеры:</b> Einbecker Ur-Bock Dunkel, Aass Bock, Great Lakes Rockefeller Bock]]></string>
+    <integer-array name="type_5B_detail_srm">
+        <item>14</item>
+        <item>22</item>
+    </integer-array>
 
     <string name="type_5C_detail" formatted="false"><![CDATA[
 <h1>5C. Доппельбок (двойной бок) - Doppelbock</h1>
@@ -663,6 +723,10 @@
 <b>SRM:</b> 6 - 25<br>
 <b>ABV:</b> 7 - 10+%<br><br>
 <b>Коммерческие примеры:</b> Paulaner Salvator, Ayinger Celebrator, Spaten Optimator, Tucher Bajuvator, Augustiner Maximator, Weihenstephaner Korbinian, Weltenburger Kloster Asam-Bock, EKU 28, Eggenberg Urbock 23°, Samichlaus, Bell\'s Consecrator, Moretti La Rossa]]></string>
+    <integer-array name="type_5C_detail_srm">
+        <item>6</item>
+        <item>25</item>
+    </integer-array>
 
     <string name="type_5D_detail" formatted="false"><![CDATA[
 <h1>5D. Айсбок (ледяной бок) - Eisbock</h1>
@@ -681,6 +745,10 @@
 <b>SRM:</b> 18 - 30+<br>
 <b>ABV:</b> 9 - 14+%<br><br>
 <b>Коммерческие примеры:</b> Kulmbacher Reichelbrau Eisbock, Eggenberg Urbock Dunkel Eisbock, Niagara Eisbock, Southampton Eisbock]]></string>
+    <integer-array name="type_5D_detail_srm">
+        <item>18</item>
+        <item>30</item>
+    </integer-array>
 
     <string name="type_6A_detail" formatted="false"><![CDATA[
 <h1>6A. Крим (сливочный, кремовый) эль - Cream Ale</h1>
@@ -699,6 +767,10 @@
 <b>SRM:</b> 2.5 - 5<br>
 <b>ABV:</b> 4.2- 5.6%<br><br>
 <b>Коммерческие примеры:</b> Genesee Cream Ale, Little Kings Cream Ale (Hudepohl), Sleeman Cream Ale, Liebotschaner Cream Ale (пивоварня Lion Brewery), Dave\'s Original Cream Ale (Molson), New Glarus Spotted Cow Farmhouse Ale, Wisconsin Brewing Whitetail Cream Ale]]></string>
+    <integer-array name="type_6A_detail_srm">
+        <item>2</item>
+        <item>5</item>
+    </integer-array>
 
 <string name="type_6B_detail" formatted="false"><![CDATA[
 <h1>6B. Блонд эль (светлый эль) - Blonde Ale</h1>
@@ -717,6 +789,10 @@
 <b>SRM:</b> 3 - 6<br>
 <b>ABV:</b> 3.8 - 5.5%<br><br>
 <b>Коммерческие примеры:</b> Redhook Blonde, Catamount Gold, Widmer Blonde Ale, Coast Range California Blonde Ale, Fuller\'s Summer Ale, Hollywood Blonde, Pete\'s Wicked Summer Brew, Deschutes Cascade Golden]]></string>
+    <integer-array name="type_6B_detail_srm">
+        <item>3</item>
+        <item>6</item>
+    </integer-array>
 
     <string name="type_6C_detail" formatted="false"><![CDATA[
 <h1>6C. Кёльш - Kolsch</h1>
@@ -735,6 +811,10 @@
 <b>SRM:</b> 3.5 - 5<br>
 <b>ABV:</b> 4.4 - 5.2%<br><br>
 <b>Коммерческие примеры:</b> Представлены только в Кёльне: PJ Frьh, Hellers, Malzmьhle, Paeffgen, Sion, Peters, Dom; импортные образцы доступны кое-где в северной Америке: Reissdorf, Gaffel; американские версии: Goose Island Summertime, Crooked River Kцlsch, Harpoon Summer Beer, Capitol City Capitol Kцlsch]]></string>
+    <integer-array name="type_6C_detail_srm">
+        <item>3</item>
+        <item>5</item>
+    </integer-array>
 
     <string name="type_6D_detail" formatted="false"><![CDATA[
 <h1>6D. Американское пшеничное или ржаное пиво - American Wheat (уит) or Rye (рай) Beer</h1>
@@ -753,6 +833,10 @@
 <b>SRM:</b> 3 - 6<br>
 <b>ABV:</b> 4 - 5.5%<br><br>
 <b>Коммерческие примеры:</b> Bell\'s Oberon, Anchor Summer Beer, Pyramid Hefe-Weizen, Harpoon UFO Hefeweizen, Widmer Hefeweizen, Sierra Nevada Unfiltered Wheat Beer, Anderson Valley High Rollers Wheat Beer, Redhook Sunrye, O\'Hanlon\'s Original Rye Beer]]></string>
+    <integer-array name="type_6D_detail_srm">
+        <item>3</item>
+        <item>6</item>
+    </integer-array>
 
 <string name="type_7A_detail" formatted="false"><![CDATA[
 <h1>7A. Северогерманский альтбир (старое пиво) - Northern German Altbier</h1>
@@ -770,6 +854,10 @@
 <b>SRM:</b> 13 - 19<br>
 <b>ABV:</b> 4.5 - 5.2%<br><br>
 <b>Коммерческие примеры:</b> DAB Traditional, Hannen Alt, Grolsch Amber, Alaskan Amber, St. Stan\'s Amber, Schmaltz\' Alt]]></string>
+    <integer-array name="type_7A_detail_srm">
+        <item>13</item>
+        <item>19</item>
+    </integer-array>
 
 <string name="type_7B_detail" formatted="false"><![CDATA[
 <h1>7B. Калифорнийское комэн бир (калифорнийское обычное пиво) - California Common Beer</h1>
@@ -788,6 +876,10 @@
 <b>SRM:</b> 10 - 14<br>
 <b>ABV:</b> 4.5 - 5.5%<br><br>
 <b>Коммерческие примеры:</b> Anchor Steam, Southampton West Coast Steam Beer, Old Dominion Victory Amber, Flying Dog Old Scratch Amber Lager]]></string>
+    <integer-array name="type_7B_detail_srm">
+        <item>10</item>
+        <item>14</item>
+    </integer-array>
 
 <string name="type_7C_detail" formatted="false"><![CDATA[
 <h1>7C. Дюссельдорфский альтбир - Dьsseldorf Altbier</h1>
@@ -806,6 +898,10 @@
 <b>SRM:</b> 13 - 17<br>
 <b>ABV:</b> 4.5 - 5.2%<br><br>
 <b>Коммерческие примеры:</b> Пивные в Altstadt’е: Zum Uerige, Im Fьchschen, Schumacher, Zum Schlьssel; другие примеры: Diebels Alt, Schlцsser Alt, Frankenheim Alt, Widmer Ur-Alt]]></string>
+    <integer-array name="type_7C_detail_srm">
+        <item>13</item>
+        <item>17</item>
+    </integer-array>
 
 <string name="type_8A_detail" formatted="false"><![CDATA[
 <h1>8A. Стандартный/простой биттер - Standard/Ordinary Bitter</h1>
@@ -824,6 +920,10 @@
 <b>SRM:</b> 4 - 14<br>
 <b>ABV:</b> 3.2 - 3.8%<br><br>
 <b>Коммерческие примеры:</b> Boddington\'s Pub Draught, Fuller\'s Chiswick Bitter, Oakham Jeffrey Hudson Bitter (JHB), Young\'s Bitter, Brakspear Bitter, Adnams Bitter]]></string>
+    <integer-array name="type_8A_detail_srm">
+        <item>4</item>
+        <item>14</item>
+    </integer-array>
 
 <string name="type_8B_detail" formatted="false"><![CDATA[
 <h1>8B. Специальный/лучший/премиум биттер - Special/Best/Premium Bitter (спешэл/бэст/премиум биттер)</h1>
@@ -842,6 +942,10 @@
 <b>SRM:</b> 5 - 16<br>
 <b>ABV:</b> 3.8 - 4.6%<br><br>
 <b>Коммерческие примеры:</b> Fuller\'s London Pride, Coniston Bluebird Bitter, Timothy Taylor Landlord, Robinson\'s Northern Glory, Shepherd Neame Masterbrew Bitter, Greene King Ruddles County Bitter, RCH Pitchfork Rebellious Bitter, Brains SA, Harviestoun Bitter and Twisted, Goose Island Honkers Ale, Rogue Younger\'s Special Bitter]]></string>
+    <integer-array name="type_8B_detail_srm">
+        <item>5</item>
+        <item>16</item>
+    </integer-array>
 
 <string name="type_8C_detail" formatted="false"><![CDATA[
 <h1>8C. Экстра специальный/крепкий биттер (английский пэйл эль) - Extra Special/Strong Bitter (English Pale Ale)</h1>
@@ -860,6 +964,10 @@
 <b>SRM:</b> 6 - 18<br>
 <b>ABV:</b> 4.6 - 6.2%<br><br>
 <b>Коммерческие примеры:</b> Fullers ESB, Adnams Broadside, Shepherd Neame Bishop\'s Finger, Samuel Smith\'s Old Brewery Pale Ale, Bass Ale, Whitbread Pale Ale, Shepherd Neame Spitfire, Marston\'s Pedigree, Black Sheep Ale, Vintage Henley, Mordue Workie Ticket, Morland Old Speckled Hen, Greene King Abbot Ale, Bateman\'s XXXB, Gale\'s Hordean Special Bitter (HSB), Ushers 1824 Particular Ale, Hopback Summer Lightning, Redhook ESB, Great Lakes Moondog Ale, Shipyard Old Thumper, Alaskan ESB, Geary\'s Pale Ale, Cooperstown Old Slugger]]></string>
+    <integer-array name="type_8C_detail_srm">
+        <item>6</item>
+        <item>18</item>
+    </integer-array>
 
 <string name="type_9A_detail" formatted="false"><![CDATA[
 <h1>9A. Шотландское легкое 60/- (Scottish Light 60/-)(скотиш лайт)</h1>
@@ -878,6 +986,10 @@
 <b>ABV:</b> 2.5 - 3.2%<br>
 <b>SRM:</b> 9 - 17<br><br>
 <b>Коммерческие примеры:</b> Belhaven 60/-, McEwan\'s 60/-, Maclay 60/- Light (все образцы только бочковые, не экспортируются в США)]]></string>
+    <integer-array name="type_9A_detail_srm">
+        <item>9</item>
+        <item>17</item>
+    </integer-array>
 
     <string name="type_9B_detail" formatted="false"><![CDATA[
 <h1>9B. Шотландское крепкое 70/- (Heavy 70/-)(скотиш хеви)</h1>
@@ -896,6 +1008,10 @@
 <b>SRM:</b> 9 - 17<br>
 <b>ABV:</b> 3.2 - 3.9%<br><br>
 <b>Коммерческие примеры:</b> Caledonian 70/- (Caledonian Amber Ale в США), Belhaven 70/-, Orkney Raven Ale, Maclay 70/-, Tennents Special, Broughton Greenmantle]]></string>
+    <integer-array name="type_9B_detail_srm">
+        <item>9</item>
+        <item>17</item>
+    </integer-array>
 
     <string name="type_9C_detail" formatted="false"><![CDATA[
 <h1>9C. Шотландское экспортное 80/- (Scottish Export 80/-)</h1>
@@ -914,6 +1030,10 @@
 <b>SRM:</b> 9 - 17<br>
 <b>ABV:</b> 3.9 - 5.0%<br><br>
 <b>Коммерческие примеры:</b> Orkney Dark Island, Caledonian 80/- Export Ale, Belhaven 80/- (Belhaven Scottish Ale в США), Southampton 80 Shilling, Broughton Exciseman’s 80/-, Belhaven St. Andrews Ale, McEwan\'s Export (IPA), Inveralmond Lia Fail, Broughton Merlin’s Ale, Arran Dark]]></string>
+    <integer-array name="type_9C_detail_srm">
+        <item>9</item>
+        <item>17</item>
+    </integer-array>
 
     <string name="type_9D_detail" formatted="false"><![CDATA[
 <h1>9D. Ирландский красный эль - Irish Red (айриш ред) Ale</h1>
@@ -931,6 +1051,10 @@
 <b>SRM:</b> 9 - 18<br>
 <b>ABV:</b> 4.0 - 6.0%<br><br>
 <b>Коммерческие примеры:</b> Moling\'s Irish Red Ale, Smithwick\'s Irish Ale, Kilkenny Irish Beer, Beamish Red Ale, Caffrey\'s Irish Ale, Goose Island Kilgubbin Red Ale, Murphy\'s Irish Red (лагер), Boulevard Irish Ale, Harpoon Hibernian Ale]]></string>
+    <integer-array name="type_9D_detail_srm">
+        <item>9</item>
+        <item>18</item>
+    </integer-array>
 
     <string name="type_9E_detail" formatted="false"><![CDATA[
 <h1>9E. Крепкий скотч эль - Strong Scotch (стронг скотч) Ale</h1>
@@ -948,6 +1072,10 @@
 <b>SRM:</b> 14 - 25<br>
 <b>ABV:</b> 6.5 - 10%<br><br>
 <b>Коммерческие примеры:</b> Traquair House Ale, Orkney Skull Splitter, McEwan\'s Scotch Ale, MacAndrew\'s Scotch Ale, Belhaven Wee Heavy, Broughton Old Jock, Scotch du Silly, Gordon Highland Scotch Ale, Founders Dirty Bastard]]></string>
+    <integer-array name="type_9E_detail_srm">
+        <item>14</item>
+        <item>25</item>
+    </integer-array>
 
     <string name="type_10A_detail" formatted="false"><![CDATA[
 <h1>10A. Американский пэйл эль - American Pale Ale</h1>
@@ -966,6 +1094,10 @@
 <b>SRM:</b> 5 - 14<br>
 <b>ABV:</b> 4.5 - 6%<br><br>
 <b>Коммерческие примеры:</b> Sierra Nevada Pale Ale, Stone Pale Ale, Great Lakes Burning River Pale Ale, Full Sail Pale Ale, Three Floyds X-Tra Pale Ale, Anderson Valley Poleeko Gold Pale Ale, Left Hand Brewing Jackman\'s Pale Ale, Pyramid Pale Ale, Deschutes Mirror Pond]]></string>
+    <integer-array name="type_10A_detail_srm">
+        <item>5</item>
+        <item>14</item>
+    </integer-array>
 
 <string name="type_10B_detail" formatted="false"><![CDATA[
 <h1>10B. Американский янтарный эль - American Amber (эмбэ) Ale</h1>
@@ -984,6 +1116,10 @@
 <b>SRM:</b> 10 - 17<br>
 <b>ABV:</b> 4.5 - 6%<br><br>
 <b>Коммерческие примеры:</b> Mendocino Red Tail Ale, North Coast Red Seal Ale, St. Rogue Red Ale, Avery Redpoint Ale, Anderson Valley Boont Amber Ale, Bell\'s Amber, Hoptown Paint the Town Red, McNeill\'s Firehouse Amber Ale]]></string>
+    <integer-array name="type_10B_detail_srm">
+        <item>10</item>
+        <item>17</item>
+    </integer-array>
 
 <string name="type_10C_detail" formatted="false"><![CDATA[
 <h1>10C. Американский коричневый эль - American Brown (браун) Ale</h1>
@@ -1001,6 +1137,10 @@
 <b>SRM:</b> 18 - 35<br>
 <b>ABV:</b> 4.3 - 6.2%<br><br>
 <b>Коммерческие примеры:</b> Brooklyn Brown Ale, Great Lakes Cleveland Brown Ale, Avery Ellie\'s Brown Ale, Left Hand Deep Cover Brown Ale, Bell\'s Best Brown, North Coast Acme Brown, Lost Coast Downtown Brown, Big Sky Moose Drool Brown Ale]]></string>
+    <integer-array name="type_10C_detail_srm">
+        <item>18</item>
+        <item>35</item>
+    </integer-array>
 
 <string name="type_11A_detail" formatted="false"><![CDATA[
 <h1>11A. Майлд (Мягкий) - Mild</h1>
@@ -1019,6 +1159,10 @@
 <b>SRM:</b> 12 - 25<br>
 <b>ABV:</b> 2.8 - 4.5% (большинство имеют 3.1 - 3.8%)<br><br>
 <b>Коммерческие примеры:</b> Moorhouse Black Cat, Highgate Mild, Brain\'s Dark, Banks\'s Mild, Coach House Gunpowder Strong Mild, Gale\'s Festival Mild, Woodforde\'s Norfolk Nog, Goose Island PMD Mild]]></string>
+    <integer-array name="type_11A_detail_srm">
+        <item>12</item>
+        <item>25</item>
+    </integer-array>
 
     <string name="type_11B_detail" formatted="false"><![CDATA[
 <h1>11B. Южноанглийский коричневый - Southern English Brown (сазэн инглиш браун)</h1>
@@ -1037,6 +1181,10 @@
 <b>SRM:</b> 19 - 35<br>
 <b>ABV:</b> 2.8 - 4.2%<br><br>
 <b>Коммерческие примеры:</b> Mann\'s Brown Ale (бутылочный, в США не поставляется), Tolly Cobbold Cobnut Nut Brown Ale]]></string>
+    <integer-array name="type_11B_detail_srm">
+        <item>19</item>
+        <item>35</item>
+    </integer-array>
 
 <string name="type_11C_detail" formatted="false"><![CDATA[
 <h1>11C. Североанглийский коричневый эль - Northern English Brown Ale (нозэн инглиш браун)</h1>
@@ -1054,6 +1202,10 @@
 <b>SRM:</b> 12 - 22<br>
 <b>ABV:</b> 4.2 - 5.4%<br><br>
 <b>Коммерческие примеры:</b> Newcastle Brown Ale, Samuel Smith\'s Nut Brown Ale, Tolly Cobbold Cobnut Special Nut Brown Ale, Goose Island Hex Nut Brown Ale]]></string>
+    <integer-array name="type_11C_detail_srm">
+        <item>12</item>
+        <item>22</item>
+    </integer-array>
 
     <string name="type_12A_detail" formatted="false"><![CDATA[
 <h1>12A. Коричневый портер - Brown Porter</h1>
@@ -1072,6 +1224,10 @@
 <b>SRM:</b> 20 - 30<br>
 <b>ABV:</b> 4 - 5.4%<br><br>
 <b>Коммерческие примеры:</b> Samuel Smith Taddy Porter, Fuller\'s London Porter, Burton Bridge Burton Porter, Nethergate Old Growler Porter, Nick Stafford\'s Nightmare Yorkshire Porter, St. Peters Old-Style Porter, Bateman\'s Salem Porter, Shepherd Neame Original Porter, Flag Porter, Yuengling Porter, Geary\'s London Style Porter]]></string>
+    <integer-array name="type_12A_detail_srm">
+        <item>20</item>
+        <item>30</item>
+    </integer-array>
 
     <string name="type_12B_detail" formatted="false"><![CDATA[
 <h1>12B. Крепкий портер - Robust Porter («рэубаст потэ»)</h1>
@@ -1090,6 +1246,10 @@
 <b>SRM:</b> 22 - 35+<br>
 <b>ABV:</b> 4.8 - 6%<br><br>
 <b>Коммерческие примеры:</b> Anchor Porter, Great Lakes Edmund Fitzgerald Porter, Sierra Nevada Porter, Bell\'s Porter, Thirsty Dog Old Leghumper, Otter Creek Stovepipe Porter, Portland Haystack Black Porter, Avery New World Porter, Deschutes Black Butte Porter, Redhook Blackhook Porter]]></string>
+    <integer-array name="type_12B_detail_srm">
+        <item>22</item>
+        <item>35</item>
+    </integer-array>
 
     <string name="type_12C_detail" formatted="false"><![CDATA[
 <h1>12C. Балтийский портер – Baltic («болтик») Porter</h1>
@@ -1108,6 +1268,10 @@
 <b>SRM:</b> 17 - 30<br>
 <b>ABV:</b> 5.5 - 9.5% (хотя наиболее типично 7 - 8.5%)<br><br>
 <b>Коммерческие примеры:</b> Sinebrychoff Porter (Финляндия), Zywiec Porter (Польша), Baltika Porter (Россия), Carnegie Stark Porter (Швеция), Dojlidy Polski (Польша), Aldaris Porteris (Латвия), Utenos Porter (Литва), Kozlak Porter (Польша), Stepan Razin Porter (Россия)]]></string>
+    <integer-array name="type_12C_detail_srm">
+        <item>17</item>
+        <item>30</item>
+    </integer-array>
 
     <string name="type_13A_detail" formatted="false"><![CDATA[
 <h1>13A. Сухой стаут - Dry Stout (драй стаут)</h1>
@@ -1126,6 +1290,10 @@
 <b>SRM:</b> 25 - 40+<br>
 <b>ABV:</b> 4 - 5%<br><br>
 <b>Коммерческие примеры:</b> Guinness Draught Stout (также в банках), Murphy\'s Stout, Beamish Stout, O\'Hara\'s Celtic Stout, Dorothy Goodbody\'s Wholesome Stout, Orkney Dragonhead Stout, Brooklyn Dry Stout, Old Dominion Stout, Goose Island Dublin Stout, Arbor Brewing Faricy Fest Irish Stout]]></string>
+    <integer-array name="type_13A_detail_srm">
+        <item>25</item>
+        <item>40</item>
+    </integer-array>
 
     <string name="type_13B_detail" formatted="false"><![CDATA[
 <h1>13B. Сладкий стаут - Sweet Stout (суит стаут)</h1>
@@ -1144,6 +1312,10 @@
 <b>SRM:</b> 30 - 40+<br>
 <b>ABV:</b> 4 - 6%<br><br>
 <b>Коммерческие примеры:</b> Mackeson\'s XXX Stout, Watney\'s Cream Stout, St. Peter\'s Cream Stout, Marston\'s Oyster Stout, Samuel Adams Cream Stout, Left Hand Milk Stout]]></string>
+    <integer-array name="type_13B_detail_srm">
+        <item>30</item>
+        <item>40</item>
+    </integer-array>
 
     <string name="type_13C_detail" formatted="false"><![CDATA[
 <h1>13C. Овсяный стаут - Oatmeal Stout (эутмил стаут)</h1>
@@ -1162,6 +1334,10 @@
 <b>SRM:</b> 22 - 40+<br>
 <b>ABV:</b> 4.2 - 5.9%<br><br>
 <b>Коммерческие примеры:</b> Samuel Smith Oatmeal Stout, Young\'s Oatmeal Stout, Maclay\'s Oat Malt Stout, Broughton Kinmount Willie Oatmeal Stout, Anderson Valley Barney Flats Oatmeal Stout, Goose Island Oatmeal Stout, McAuslan Oatmeal Stout, McNeill\'s Oatmeal Stout, Wild Goose Oatmeal Stout]]></string>
+    <integer-array name="type_13C_detail_srm">
+        <item>22</item>
+        <item>40</item>
+    </integer-array>
 
     <string name="type_13D_detail" formatted="false"><![CDATA[
 <h1>13D. Форин (зарубежный) экстра стаут - Foreign Extra Stout</h1>
@@ -1180,6 +1356,10 @@
 <b>SRM:</b> 30 - 40+<br>
 <b>ABV:</b> 5.5 - 8%<br><br>
 <b>Коммерческие примеры:</b> Lion Stout (Шри Ланка), ABC Stout, Dragon Stout, Royal Extra "The Lion Stout" (Тринидад), Jamaica Stout, Guinness Extra Stout (бутылочный продукт из США), Guinness Foreign Extra Stout (бутылочный, не продается в США), Coopers Best Extra Stout, Freeminer Deep Shaft Stout, Sheaf Stout, Bell\'s Double Cream Stout]]></string>
+    <integer-array name="type_13D_detail_srm">
+        <item>30</item>
+        <item>40</item>
+    </integer-array>
 
     <string name="type_13E_detail" formatted="false"><![CDATA[
 <h1>13E. Американский стаут - American Stout</h1>
@@ -1197,6 +1377,10 @@
 <b>SRM:</b> 30 - 40+<br>
 <b>ABV:</b> 5 - 7%<br><br>
 <b>Коммерческие примеры:</b> Sierra Nevada Stout, North Coast Old No. 38, Avery Out of Bounds Stout, Three Floyds Black Sun Stout, Mad River Steelhead Extra Stout, Rogue Shakespeare Stout, Bell\'s Kalamazoo Stout, Deschutes Obsidian Stout, Mendocino Black Hawk Stout]]></string>
+    <integer-array name="type_13E_detail_srm">
+        <item>30</item>
+        <item>40</item>
+    </integer-array>
 
     <string name="type_13F_detail" formatted="false"><![CDATA[
 <h1>13F. Российский императорский стаут - Russian Imperial Stout (рашн импиэриэл стаут)</h1>
@@ -1215,6 +1399,10 @@
 <b>SRM:</b> 30 - 40+<br>
 <b>ABV:</b> 8 - 12+%<br><br>
 <b>Коммерческие примеры:</b> Samuel Smith Imperial Stout, Courage Imperial Stout, Brooklyn Black Chocolate Stout, Rogue Imperial Stout, North Coast Old Rasputin Imperial Stout, Victory Storm King, Bell\'s Expedition Stout, Dogfish Head World Wide Stout, Thirsty Dog Siberian Night, Stone Imperial Stout, Avery The Czar, Founders Imperial Stout, Newport Beach John Wayne Imperial Stout, Great Lakes Blackout Stout]]></string>
+    <integer-array name="type_13F_detail_srm">
+        <item>30</item>
+        <item>40</item>
+    </integer-array>
 
     <string name="type_14A_detail" formatted="false"><![CDATA[
 <h1>14A. Английский ИПЭ - English IPA</h1>
@@ -1233,6 +1421,10 @@
 <b>SRM:</b> 8 - 14<br>
 <b>ABV:</b> 5 - 7.5%<br><br>
 <b>Коммерческие примеры:</b> Freeminer Trafalgar IPA, Hampshire Pride of Romsey IPA, Burton Bridge Empire IPA, Samuel Smith\'s India Ale, Fuller\'s IPA, King & Barnes IPA, Brooklyn East India Pale Ale, Shipyard Fuggles IPA, Goose Island IPA]]></string>
+    <integer-array name="type_14A_detail_srm">
+        <item>8</item>
+        <item>14</item>
+    </integer-array>
 
     <string name="type_14B_detail" formatted="false"><![CDATA[
 <h1>14B. Американский ИПЭ - American IPA</h1>
@@ -1250,6 +1442,10 @@
 <b>SRM:</b> 6 - 15<br>
 <b>ABV:</b> 5.5 - 7.5%<br><br>
 <b>Коммерческие примеры:</b> Stone IPA, Victory Hop Devil, Anderson Valley Hop Ottin\', Anchor Liberty Ale, Sierra Nevada Celebration Ale, Three Floyds Alpha King, Harpoon IPA, Bell\'s Two-Hearted Ale, Avery IPA, Founder\'s Centennial IPA, Mendocino White Hawk Select IPA]]></string>
+    <integer-array name="type_14B_detail_srm">
+        <item>6</item>
+        <item>15</item>
+    </integer-array>
 
     <string name="type_14C_detail" formatted="false"><![CDATA[
 <h1>14C. Имперский ИПЭ - Imperial IPA</h1>
@@ -1268,6 +1464,10 @@
 <b>SRM:</b> 8 - 15<br>
 <b>ABV:</b> 7.5 - 10%+<br><br>
 <b>Коммерческие примеры:</b> Dogfish Head 90-minute IPA, Rogue I2 PA, Stone Ruination IPA, Three Floyd\'s Dreadnaught, Russian River Pliny the Elder, Moylan\'s Moylander Double IPA. Сток эли (сваренные весной про запас для употребления осенью*) включают такие примеры как Stone Arrogant Bastard и Mendocino Eye of the Hawk]]></string>
+    <integer-array name="type_14C_detail_srm">
+        <item>8</item>
+        <item>15</item>
+    </integer-array>
 
     <string name="type_15A_detail" formatted="false"><![CDATA[
 <h1>15A. Вайцен/Вайсбир (пшеничное/белое пиво)- Weizen/Weissbier</h1>
@@ -1286,6 +1486,10 @@
 <b>SRM:</b> 2 - 8<br>
 <b>ABV:</b> 4.3 - 5.6%<br><br>
 <b>Коммерческие примеры:</b> Schneider Weisse Original (необычный из-за своего янтарного цвета), Paulaner Hefe-Weizen, Hacker-Pschorr Weisse, Franziskaner Hefe-Weisse, Penn Weizen, Capitol Kloster Weizen, Sudwerk Hefeweizen, Brooklyner Weisse, Barrelhouse Hocking Hills HefeWeizen, Sprecher Hefeweizen]]></string>
+    <integer-array name="type_15A_detail_srm">
+        <item>2</item>
+        <item>8</item>
+    </integer-array>
 
     <string name="type_15B_detail" formatted="false"><![CDATA[
 <h1>15B. Дункельвайцен (темное пшеничное) - Dunkelweizen</h1>
@@ -1304,6 +1508,10 @@
 <b>SRM:</b> 14 - 23<br>
 <b>ABV:</b> 4.3 - 5.6%<br><br>
 <b>Коммерческие примеры:</b> Franziskaner Dunkel Hefe-Weisse, Hacker-Pschorr Weisse Dark, Tucher Dunkles Hefe Weizen, Ayinger Ur-Weisse, Brooklyner Dunkel-Weisse]]></string>
+    <integer-array name="type_15B_detail_srm">
+        <item>10</item>
+        <item>23</item>
+    </integer-array>
 
     <string name="type_15C_detail" formatted="false"><![CDATA[
 <h1>15C. Вайценбок (пшеничный бок) - Weizenbock</h1>
@@ -1322,6 +1530,10 @@
 <b>SRM:</b> 12 - 25<br>
 <b>ABV:</b> 6.5 - 8.0%+<br><br>
 <b>Коммерческие примеры:</b> Schneider Aventinus, Schneider Aventinus Eisbock, Erdinger Pikantus, Mahr\'s Der Weisse Bock, Pyramid Weizenbock, DeGroen\'s Weizenbock]]></string>
+    <integer-array name="type_15C_detail_srm">
+        <item>12</item>
+        <item>25</item>
+    </integer-array>
 
     <string name="type_15D_detail" formatted="false"><![CDATA[
 <h1>15D. Роггенбир (немецкое ржаное пиво) - Roggenbier (German Rye Beer)</h1>
@@ -1340,6 +1552,10 @@
 <b>SRM:</b> 14 - 19<br>
 <b>ABV:</b> 4.5 - 6%<br><br>
 <b>Коммерческие примеры:</b> Paulaner Roggen (некогда Thurn und Taxis, больше не импортируется в США), Burgerbrau Wolznacher Roggenbier]]></string>
+    <integer-array name="type_15D_detail_srm">
+        <item>14</item>
+        <item>19</item>
+    </integer-array>
 
     <string name="type_16A_detail" formatted="false"><![CDATA[
 <h1>16A. Витбир - Witbier</h1>
@@ -1358,6 +1574,10 @@
 <b>SRM:</b> 2 - 4<br>
 <b>ABV:</b> 4.5 - 5.5% (5% наиболее типично)<br><br>
 <b>Коммерческие примеры:</b> Hoegaarden Wit, Vuuve 5, Blanche de Bruges, Blanche de Bruxelles, Brugs Tarwebier, Sterkens White Ale, Celis White (теперь готовят в Мичигане), Blanche de Brooklyn, Great Lakes Holy Moses, Unibroue Blanche de Chambly, Blue Moon Belgian White]]></string>
+    <integer-array name="type_16A_detail_srm">
+        <item>2</item>
+        <item>4</item>
+    </integer-array>
 
     <string name="type_16B_detail" formatted="false"><![CDATA[
 <h1>16B. Бельгийский пэйл эль - Belgian Pale Ale</h1>
@@ -1376,6 +1596,10 @@
 <b>SRM:</b>8 - 14<br>
 <b>ABV:</b>4.8 - 5.5%<br><br>
 <b>Коммерческие примеры:</b>De Koninck, Speciale Palm, Dobble Palm, Ginder Ale, Op-Ale, Vieux-Temps, Brewer\'s Art House Pale Ale, Ommegang Rare Vos (необычное благодаря своей крепости в 6.5% ABV)]]></string>
+    <integer-array name="type_16B_detail_srm">
+        <item>8</item>
+        <item>14</item>
+    </integer-array>
 
     <string name="type_16C_detail" formatted="false"><![CDATA[
 <h1>16C. Сезонное - Saison (сэзон)</h1>
@@ -1394,6 +1618,10 @@
 <b>SRM:</b>5 - 12<br>
 <b>ABV:</b>5 - 8.5%<br><br>
 <b>Коммерческие примеры:</b>Saison Dupont, Foret and Moinette Blonde; Fantome Saison(s); Saison de Pipaix and La Folie; Saison Silly; Saison Regal; Saison Voisin; Lefebvre Saison 1900; Ellezelloise Saison 2000; Brooklyn Saison; Southampton Saison; New Belgium Saison; Pizza Port-Carlsbad Saison]]></string>
+    <integer-array name="type_16C_detail_srm">
+        <item>5</item>
+        <item>12</item>
+    </integer-array>
 
     <string name="type_16D_detail" formatted="false"><![CDATA[
 <h1>16D. Бир де Гард - Biere de Garde</h1>
@@ -1412,6 +1640,10 @@
 <b>SRM:</b> 6 - 19<br>
 <b>ABV:</b> 6 - 8%<br><br>
 <b>Коммерческие примеры:</b> Jenlain (коричневое), St. Amand (коричневое), Ch\'Ti Brun (коричневое), Ch\'Ti Blond (светлое), La Choulette (все 3 варианта), La Choulette Biere des Sans Culottes (светлое), Saint Sylvestre 3 Monts (светлое), Biere Nouvelle (коричневое), Castelain (светлое), Jade (янтарное), Brasseurs Biere de Garde (янтарное)]]></string>
+    <integer-array name="type_16D_detail_srm">
+        <item>6</item>
+        <item>19</item>
+    </integer-array>
 
     <string name="type_16E_detail" formatted="false"><![CDATA[
 <h1>16E. Бельгийский специальный эль - Belgian Specialty Ale</h1>
@@ -1448,6 +1680,10 @@
 <b>SRM:</b> 2 - 3<br>
 <b>ABV:</b> 2.8 - 3.6%<br><br>
 <b>Коммерческие примеры:</b> Schultheiss Berliner Weisse, Berliner Kindl Weisse, Nodding Head Berliner Weisse]]></string>
+    <integer-array name="type_17A_detail_srm">
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
 
     <string name="type_17B_detail" formatted="false"><![CDATA[
 <h1>17B. Фландрский красный эль - Flanders Red Ale</h1>
@@ -1466,6 +1702,10 @@
 <b>SRM:</b> 10 - 16<br>
 <b>ABV:</b> 5 - 5.5%<br><br>
 <b>Коммерческие примеры:</b> Rodenbach Klassiek, Rodenbach Grand Cru, Bellegems Bruin, Duchesse de Bourgogne, New Belgium La Folie, Petrus Oud Bruin, Southampton Publick House Flanders Red Ale, Verhaege Vichtenaar]]></string>
+    <integer-array name="type_17B_detail_srm">
+        <item>10</item>
+        <item>16</item>
+    </integer-array>
 
     <string name="type_17C_detail" formatted="false"><![CDATA[
 <h1>17C. Фландрский коричневый эль - Flanders Brown Ale/Oud Bruin (Од Браун)</h1>
@@ -1484,6 +1724,10 @@ Lactobacillus плохо реагирует на повышенный урове
 <b>SRM:</b> 15 - 20<br>
 <b>ABV:</b> 4 - 8%<br><br>
 <b>Коммерческие примеры:</b> Liefman\'s Goudenband, Liefman\'s Odnar, Liefman\'s Oud Bruin, Ichtegem Old Brown]]></string>
+    <integer-array name="type_17C_detail_srm">
+        <item>15</item>
+        <item>20</item>
+    </integer-array>
 
     <string name="type_17D_detail" formatted="false"><![CDATA[
 <h1>17D. Чистый (некупажированный) ламбик - Straight (Unblended) Lambic</h1>
@@ -1502,6 +1746,10 @@ Lactobacillus плохо реагирует на повышенный урове
 <b>SRM:</b> 3 - 7<br>
 <b>ABV:</b> 5 - 6.5%<br><br>
 <b>Коммерческие примеры:</b> Единственно доступная бутылочная версия это Cantillon Grand Cru Bruocsella, используется винтаж из одной любой партии пива, которую пивовар посчитает подходящей для разлива. De Cam иногда бутилирует свои очень старые (5-летние) ламбики. В брюссельском регионе существуют специальные кафе, в которых часто подают бочковые ламбики от традиционных пивоваров/купажеров (меланжеров), таких как Boon, De Cam, Cantillon, Drei Fonteinen, Lindemans и Girardin]]></string>
+    <integer-array name="type_17D_detail_srm">
+        <item>3</item>
+        <item>7</item>
+    </integer-array>
 
     <string name="type_17E_detail" formatted="false"><![CDATA[
 <h1>17E. Гёз (гезе) - Gueuze</h1>
@@ -1520,6 +1768,10 @@ Lactobacillus плохо реагирует на повышенный урове
 <b>SRM:</b> 3 - 7<br>
 <b>ABV:</b> 5 - 8%<br><br>
 <b>Коммерческие примеры:</b> Boon Oude Gueuze, Boon Oude Gueuze Marriage Parfait, De Cam Gueuze, De Cam/Drei Fonteinen Millennium Gueuze, Drei Fonteinen Oud Gueuze, Cantillon Gueuze, Hanssens Gueuze, Lindemans Gueuze Cuvee Rene, Girardin Gueuze (Black Label), Mort Subite (нефильтрованный) Gueuze, Oud Beersel Oude Gueuze]]></string>
+    <integer-array name="type_17E_detail_srm">
+        <item>3</item>
+        <item>7</item>
+    </integer-array>
 
     <string name="type_17F_detail" formatted="false"><![CDATA[
 <h1>17F. Фруктовый ламбик - Fruit Lambic</h1>
@@ -1538,6 +1790,10 @@ Lactobacillus плохо реагирует на повышенный урове
 <b>SRM:</b> 3 - 7 (варьируется в зависимости от фруктов)<br>
 <b>ABV:</b> 5 - 7%<br><br>
 <b>Коммерческие примеры:</b> Boon Framboise Marriage Parfait, Boon Kriek Marriage Parfait, Boon Oude Kriek, Cantillon Fou Fonne (абрикос), Cantillon Kriek, Cantillon Lou Pepe Kriek, Cantillon Lou Pepe Framboise, Cantillon Rose de Gambrinus, Cantillon St. Lamvinus (виноград мерло), Cantillon Vigneronne (виноград мускат), De Cam Oude Kriek, Drie Fonteinen Kriek, Girardin Kriek, Hanssens Oude Kriek, Oud Beersel Kriek]]></string>
+    <integer-array name="type_17F_detail_srm">
+        <item>3</item>
+        <item>7</item>
+    </integer-array>
 
     <string name="type_18A_detail" formatted="false"><![CDATA[
 <h1>18A. Бельгийский светлый (блонд) эль - Belgian Blond Ale</h1>
@@ -1556,6 +1812,10 @@ Lactobacillus плохо реагирует на повышенный урове
 <b>SRM:</b> 4 - 6<br>
 <b>ABV:</b> 6 - 7.5% (6.5 - 7% наиболее типично)<br><br>
 <b>Коммерческие примеры:</b> Leffe Blond, Affligem Blond, La Trappe (Koningshoeven) Blond, Grimbergen Blond, Val-Dieu Blond, Straffe Hendrik Blonde, Paten Lieven Blond Abbey Ale]]></string>
+    <integer-array name="type_18A_detail_srm">
+        <item>4</item>
+        <item>6</item>
+    </integer-array>
 
     <string name="type_18B_detail" formatted="false"><![CDATA[
 <h1>18B. Бельгийский дуббель (двойное) - Belgian Dubbel</h1>
@@ -1573,6 +1833,10 @@ Lactobacillus плохо реагирует на повышенный урове
 <b>SRM:</b> 10 - 14<br>
 <b>ABV:</b> 6 - 7.5% (наиболее типично 6.5 - 7%)<br><br>
 <b>Коммерческие примеры:</b> Westmalle Dubbel, La Trappe Dubbel, Corsendonk Abbey Brown Ale, Grimbergen Double, Affligem Dubbel, Chimay Premiere (шимЭ*, красное), Duinen Dubbel, St. Feuillien Brune, New Belgium Abbey Belgian Style Ale, Stoudts Abbey Double Ale]]></string>
+    <integer-array name="type_18B_detail_srm">
+        <item>10</item>
+        <item>14</item>
+    </integer-array>
 
     <string name="type_18C_detail" formatted="false"><![CDATA[
 <h1>18C. Бельгийский трипель (тройное) - Belgian Tripel</h1>
@@ -1591,6 +1855,10 @@ Lactobacillus плохо реагирует на повышенный урове
 <b>SRM:</b> 4.5 - 6<br>
 <b>ABV:</b> 7.5 - 9%<br><br>
 <b>Коммерческие примеры:</b> Westmalle Tripel, Chimay Cinq Cents (белое), Val-Dieu Triple, St. Bernardus Tripel, Affligem Tripel, Grimbergen Tripel, La Trappe Tripel, Witkap Pater Tripel, Corsendonk Abbey Pale Ale, St. Feuillien Tripel, New Belgium Trippel, Unibroue La Fin du Monde, Brooklyn Triple, Dragonmead Final Absolution]]></string>
+    <integer-array name="type_18C_detail_srm">
+        <item>4</item>
+        <item>6</item>
+    </integer-array>
 
     <string name="type_18D_detail" formatted="false"><![CDATA[
 <h1>18D. Бельгийский золотистый крепкий эль - Belgian Golden Strong Ale</h1>
@@ -1609,6 +1877,10 @@ Lactobacillus плохо реагирует на повышенный урове
 <b>SRM:</b> 4 - 6<br>
 <b>ABV:</b> 7.5 - 10%<br><br>
 <b>Коммерческие примеры:</b> Duvel, Hapkin, Lucifer, Brigand, Judas, Delirium Tremens, Dulle Teve, Avery Salvation, North Coast Pranqster, Unibroue Eau Benite]]></string>
+    <integer-array name="type_18D_detail_srm">
+        <item>4</item>
+        <item>6</item>
+    </integer-array>
 
     <string name="type_18E_detail" formatted="false"><![CDATA[
 <h1>18E. Бельгийский темный крепкий эль - Belgian Dark Strong Ale</h1>
@@ -1627,6 +1899,10 @@ Lactobacillus плохо реагирует на повышенный урове
 <b>SRM:</b> 12 - 20<br>
 <b>ABV:</b> 8 - 12%+<br><br>
 <b>Коммерческие примеры:</b> Rochefort 10 (голубая пробка), Westvleteren 12 (желтая пробка), Chimay Grande Reserve (голубой), Rochefort 8 (зеленая пробка), St. Bernardus Abt 12, Gouden Carolus Grand Cru of the Emperor, Abbaye des Rocs Grand Cru, Gulden Draak, Kasteelbier Biere du Chateau Donker]]></string>
+    <integer-array name="type_18E_detail_srm">
+        <item>12</item>
+        <item>20</item>
+    </integer-array>
 
     <string name="type_19A_detail" formatted="false"><![CDATA[
 <h1>19A. Старый (олд) эль - Old Ale</h1>
@@ -1662,6 +1938,10 @@ Lactobacillus плохо реагирует на повышенный урове
 <b>SRM:</b> 8 - 22<br>
 <b>ABV:</b> 8 - 12+%<br><br>
 <b>Коммерческие примеры:</b> Thomas Hardy\'s Ale, Burton Bridge Thomas Sykes Old Ale, Robinson\'s Old Tom, J.W. Lee\'s Vintage Harvest Ale, Fuller\'s Golden Pride, Young\'s Old Nick (необычен своей крепостью 7.2% ABV), Whitbread Gold Label, Lakefront Beer Line, Heavyweight Old Salty]]></string>
+    <integer-array name="type_19B_detail_srm">
+        <item>8</item>
+        <item>22</item>
+    </integer-array>
 
     <string name="type_19C_detail" formatted="false"><![CDATA[
 <h1>19C. Американский барливайн - American Barleywine</h1>
@@ -1680,6 +1960,10 @@ Lactobacillus плохо реагирует на повышенный урове
 <b>SRM:</b> 10 - 19<br>
 <b>ABV:</b> 8 - 12+%<br><br>
 <b>Коммерческие примеры:</b> Sierra Nevada Bigfoot, Rogue Old Crustacean, Anchor Old Foghorn, Victory Old Horizontal, Brooklyn Monster Ale, Avery Hog Heaven Barleywine, Bell\'s Third Coast Old Ale, Weyerbacher Blithering Idiot, Three Floyds Behemoth, Old Dominion Millennium, Stone Old Guardian, Bridgeport Old Knucklehead, Hair of the Dog Doggie Claws, Left Hand Widdershins]]></string>
+    <integer-array name="type_19C_detail_srm">
+        <item>10</item>
+        <item>19</item>
+    </integer-array>
 
     <string name="type_20A_detail" formatted="false"><![CDATA[
 <h1>20A. ФРУКТОВОЕ ПИВО - FRUIT BEER</h1>
@@ -1733,6 +2017,10 @@ Lactobacillus плохо реагирует на повышенный урове
 <b>SRM:</b> 14 - 22+<br>
 <b>ABV:</b> 4.8 - 6%<br><br>
 <b>Коммерческие примеры:</b> Schlenkerla Rauchbier Marzen, Kaiserdom Rauchbier]]></string>
+    <integer-array name="type_22A_detail_srm">
+        <item>14</item>
+        <item>22</item>
+    </integer-array>
 
     <string name="type_22B_detail" formatted="false"><![CDATA[
 <h1>22B. Прочее копченое пиво - Other Smoked Beer</h1>

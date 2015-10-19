@@ -47,7 +47,6 @@ public class SearchFragment extends Fragment {
 
         for (String group_id : group_ids)
         {
-            //String group_title = res.getString(res.getIdentifier(group_id, "string", getActivity().getPackageName()));
             String[] child_ids = res.getStringArray(res.getIdentifier(group_id + "_group", "array", getActivity().getPackageName()));
 
             for (String child_id : child_ids)
