@@ -9,10 +9,10 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 /**
- * Created by sonicse on 17.10.15.
+ * Created by sonicse on 19.10.15.
  */
 
-public class SearchAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+public class FavoritesAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private OnClickListener mOnClickListener;
     private List<String> mListItems;
     private RecyclerView mRecyclerView;
@@ -36,11 +36,11 @@ public class SearchAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
         }
     }
 
-    public SearchAdapter(List<String> items)
+    public FavoritesAdapter(List<String> items)
     {
         this.mListItems = items;
 
-        setHasStableIds(true);
+        //setHasStableIds(true);
     }
 
     @Override
@@ -65,7 +65,10 @@ public class SearchAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
         holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
-                return mOnClickListener.onItemLongClick(holder.getPosition());
+                mOnClickListener.onItemLongClick(holder.getPosition());
+                removeItem(holder.getPosition());
+
+                return true;
             }
         });
 
@@ -98,5 +101,10 @@ public class SearchAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
 
     public String getItem(int position) {
         return this.mListItems.get(position);
+    }
+
+    public void removeItem(int position) {
+        mListItems.remove(position);
+        notifyItemRangeRemoved(position, 1);
     }
 }

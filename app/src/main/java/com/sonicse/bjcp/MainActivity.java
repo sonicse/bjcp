@@ -2,7 +2,10 @@ package com.sonicse.bjcp;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
+import android.support.v4.app.Fragment;
 import android.support.v4.view.MenuItemCompat;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.support.v7.widget.SearchView;
@@ -14,6 +17,8 @@ import com.sonicse.bjcp.R;
 
 public class MainActivity extends AppCompatActivity implements SearchView.OnQueryTextListener {
 
+    private TabLayout mTabLayout;
+    private ViewPager mViewPager;
     private Toolbar mToolbar;
     private Menu mMenu;
     private static final int MIN_SEARCH_STRING_LEN = 3;
@@ -22,6 +27,24 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mTabLayout = (TabLayout) findViewById(R.id.tabs);
+        mViewPager = (ViewPager) findViewById(R.id.pager);
+        final MainPagerAdapter adapter = new MainPagerAdapter(getSupportFragmentManager());
+        mViewPager.setAdapter(adapter);
+        mTabLayout.setupWithViewPager(mViewPager);
+
+        mViewPager.addOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
+            @Override
+            public void onPageSelected(int position) {
+            if (position == 1) {
+                FavoritesFragment fragment = (FavoritesFragment) adapter.instantiateItem(mViewPager, position);
+                if (fragment != null) {
+                    fragment.onResume();
+                }
+            }
+            }
+        });
 
         initToolbar();
     }

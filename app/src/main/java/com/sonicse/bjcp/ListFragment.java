@@ -1,6 +1,7 @@
 package com.sonicse.bjcp;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v4.app.Fragment;
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -9,10 +10,14 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 
 /**
  * Created by sonicse on 15.09.15.
@@ -56,7 +61,7 @@ public class ListFragment extends Fragment
                 String child_title = res.getString(res.getIdentifier(child_id, "string", getActivity().getPackageName()));
 
                 childs.add(child_title);
-                mData.put(child_title, child_id + "_detail");
+                mData.put(child_title, child_id);
             }
 
             items.put(group_title, childs);
@@ -73,11 +78,17 @@ public class ListFragment extends Fragment
                 String str = mAdapter.getItem(group, item);
 
                 Intent intent = new Intent(getActivity(), DetailActivity.class);
-                intent.putExtra("resourceId", mData.get(str));
+                intent.putExtra("resourceId", mData.get(str) + "_detail");
                 intent.putExtra("searchText", "");
                 startActivity(intent);
 
                 getActivity().overridePendingTransition(R.anim.right_slide_in, R.anim.right_slide_out);
+            }
+
+            public void onItemLongClick(int group, int item) {
+                String str = mAdapter.getItem(group, item);
+                FavoritesStorage.addFavorite(getActivity(), mData.get(str));
+                Toast.makeText(getActivity().getApplicationContext(), "\"" + str + "\" добавлен в Избранное", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -86,4 +97,5 @@ public class ListFragment extends Fragment
 
         return view;
     }
+
 }

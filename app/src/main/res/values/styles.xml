@@ -6,6 +6,7 @@
         <item name="android:colorControlNormal">@color/colorWhite</item>
         <item name="android:textColorPrimary">@color/colorText</item>
         <item name="android:textColorSecondary">@color/colorTextSecondary</item>
+        <item name="android:colorAccent">@color/colorGray</item>
     </style>
 
     <style name="ToolbarIconColor" parent="AppTheme">

@@ -109,6 +109,7 @@ public class ListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     public interface OnClickListener {
         void onGroupClick(int group);
         void onItemClick(int group, int item);
+        void onItemLongClick(int group, int item);
     }
 
     public void setOnClickListener(OnClickListener onClickListener) {
@@ -176,6 +177,18 @@ public class ListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
                         .inflate(R.layout.listview_item, parent, false);
 
                 final ItemViewHolder holder = new ItemViewHolder(v);
+
+                holder.itemView.setLongClickable(true);
+                holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
+                    @Override
+                    public boolean onLongClick(View v) {
+                        int position = holder.getPosition();
+                        ListItem item = mListItems.get(position);
+                        mOnClickListener.onItemLongClick(item.group, item.item);
+
+                        return true;
+                    }
+                });
 
                 holder.itemView.setOnClickListener(new View.OnClickListener() {
                     @Override

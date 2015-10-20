@@ -9,9 +9,9 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -51,8 +51,7 @@ public class SearchFragment extends Fragment {
 
             for (String child_id : child_ids)
             {
-                String resourceId = child_id + "_detail";
-                int iResourceId = getResources().getIdentifier(resourceId, "string", getActivity().getPackageName());
+                int iResourceId = getResources().getIdentifier(child_id + "_detail", "string", getActivity().getPackageName());
 
                 if (iResourceId == 0)
                 {
@@ -64,7 +63,7 @@ public class SearchFragment extends Fragment {
                 if (text.toLowerCase().indexOf(searchText.toLowerCase()) > -1) {
                     String child_title = res.getString(res.getIdentifier(child_id, "string", getActivity().getPackageName()));
                     mTitles.add(child_title);
-                    mData.add(resourceId);
+                    mData.add(child_id);
                 }
             }
         }
@@ -76,11 +75,19 @@ public class SearchFragment extends Fragment {
             public void onItemClick(int position) {
 
                 Intent intent = new Intent(getActivity(), DetailActivity.class);
-                intent.putExtra("resourceId", mData.get(position));
+                intent.putExtra("resourceId", mData.get(position) + "_detail");
                 intent.putExtra("searchText", searchText);
                 startActivity(intent);
 
                 getActivity().overridePendingTransition(R.anim.right_slide_in, R.anim.right_slide_out);
+            }
+
+            public boolean onItemLongClick(int position) {
+                String str = mTitles.get(position);
+                FavoritesStorage.addFavorite(getActivity(), mData.get(position));
+                Toast.makeText(getActivity().getApplicationContext(), "\"" + str + "\" добавлен в Избранное", Toast.LENGTH_SHORT).show();
+
+                return true;
             }
         });
 
