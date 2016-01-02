@@ -22,12 +22,4 @@ android:padding="20dip">
     android:text="@string/about_copyright"
     android:autoLink="web"/>
 
-<TextView
-        android:id="@+id/about_translater"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="20dip"
-        android:textSize="16sp"
-        android:text="@string/about_translater"/>
-
 </LinearLayout>
