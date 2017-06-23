@@ -8,7 +8,7 @@ android {
         applicationId "com.sonicse.bjcp"
         minSdkVersion 14
         targetSdkVersion 23
-        versionCode 6
+        versionCode 8
         versionName "1.5"
     }
     buildTypes {
