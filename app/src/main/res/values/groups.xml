@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name = "type_1">1. Стандартный американский лагер</string>
+<string name = "type_1A">1A. Американский легкий лагер</string>
+<string name = "type_1B">1B. Американский лагер</string>
+<string name = "type_1C">1C. Крим-эль</string>
+<string name = "type_1D">1D. Американское пшеничное пиво</string>
+<string-array name="type_1_group">
+	<item>type_1A</item>
+	<item>type_1B</item>
+	<item>type_1C</item>
+	<item>type_1D</item>
+</string-array><string name = "type_2">2. Международный лагер</string>
+<string name = "type_2A">2A. Международный светлый лагер</string>
+<string name = "type_2B">2B. Международный янтарный лагер</string>
+<string name = "type_2C">2C. Международный темный лагер</string>
+<string-array name="type_2_group">
+	<item>type_2A</item>
+	<item>type_2B</item>
+	<item>type_2C</item>
+</string-array><string name = "type_3">3. Чешский лагер</string>
+<string name = "type_3A">3A. Чешский светлый лагер</string>
+<string name = "type_3B">3B. Чешский светлый премиум-лагер</string>
+<string name = "type_3C">3C. Чешский янтарный лагер</string>
+<string name = "type_3D">3D. Чешский темный лагер</string>
+<string-array name="type_3_group">
+	<item>type_3A</item>
+	<item>type_3B</item>
+	<item>type_3C</item>
+	<item>type_3D</item>
+</string-array><string name = "type_4">4. Светлый солодовый европейский лагер</string>
+<string name = "type_4A">4A. Мюнхенский хеллес</string>
+<string name = "type_4B">4B. Фестбир</string>
+<string name = "type_4C">4C. Helles Bock</string>
+<string-array name="type_4_group">
+	<item>type_4A</item>
+	<item>type_4B</item>
+	<item>type_4C</item>
+</string-array><string name = "type_5">5. Светлый горький европейский лагер</string>
+<string name = "type_5A">5A. Немецкий ляйхтбир</string>
+<string name = "type_5B">5B. Кёльш</string>
+<string name = "type_5C">5C. Немецкий экспортный хеллес</string>
+<string name = "type_5D">5D. Немецкий пилз</string>
+<string-array name="type_5_group">
+	<item>type_5A</item>
+	<item>type_5B</item>
+	<item>type_5C</item>
+	<item>type_5D</item>
+</string-array><string name = "type_6">6. Янтарный солодовый европейский лагер</string>
+<string name = "type_6A">6A. Мэрцен</string>
+<string name = "type_6B">6B. Раухбир</string>
+<string name = "type_6C">6C. Темный бок</string>
+<string-array name="type_6_group">
+	<item>type_6A</item>
+	<item>type_6B</item>
+	<item>type_6C</item>
+</string-array><string name = "type_7">7. Янтарный горький европейский лагер</string>
+<string name = "type_7A">7A. Венский лагер</string>
+<string name = "type_7B">7B. Альтбир</string>
+<string name = "type_7C">7C. Kellerbier</string>
+<string-array name="type_7_group">
+	<item>type_7A</item>
+	<item>type_7B</item>
+	<item>type_7C</item>
+</string-array><string name = "type_8">8. Темный европейский лагер</string>
+<string name = "type_8A">8A. Мюнхенский дункель</string>
+<string name = "type_8B">8B. Шварцбир</string>
+<string-array name="type_8_group">
+	<item>type_8A</item>
+	<item>type_8B</item>
+</string-array><string name = "type_9">9. Крепкий европейский лагер</string>
+<string name = "type_9A">9A. Доппельбок</string>
+<string name = "type_9B">9B. Айсбок</string>
+<string name = "type_9C">9C. Балтийский портер</string>
+<string-array name="type_9_group">
+	<item>type_9A</item>
+	<item>type_9B</item>
+	<item>type_9C</item>
+</string-array><string name = "type_10">10. Немецкое пшеничное пиво</string>
+<string name = "type_10A">10A. Вайсбир</string>
+<string name = "type_10B">10B. Темный вайсбир (Дункельвайцен)</string>
+<string name = "type_10C">10C. Вайценбок</string>
+<string-array name="type_10_group">
+	<item>type_10A</item>
+	<item>type_10B</item>
+	<item>type_10C</item>
+</string-array><string name = "type_11">11. Британский биттер</string>
+<string name = "type_11A">11A. Ординарный биттер</string>
+<string name = "type_11B">11B. Лучший биттер</string>
+<string name = "type_11C">11C. Крепкий биттер</string>
+<string-array name="type_11_group">
+	<item>type_11A</item>
+	<item>type_11B</item>
+	<item>type_11C</item>
+</string-array><string name = "type_12">12. Светлое пиво содружества</string>
+<string name = "type_12A">12A. Британский золотой эль</string>
+<string name = "type_12B">12B. Австралийский игристый эль</string>
+<string name = "type_12C">12C. Английский IPA</string>
+<string-array name="type_12_group">
+	<item>type_12A</item>
+	<item>type_12B</item>
+	<item>type_12C</item>
+</string-array><string name = "type_13">13. Коричневое британское пиво</string>
+<string name = "type_13A">13A. Темный майлд</string>
+<string name = "type_13B">13B. Британский браун-эль</string>
+<string name = "type_13C">13C. Английский портер</string>
+<string-array name="type_13_group">
+	<item>type_13A</item>
+	<item>type_13B</item>
+	<item>type_13C</item>
+</string-array><string name = "type_14">14. Шотландское пиво</string>
+<string name = "type_14A">14A. Шотландский легкий эль</string>
+<string name = "type_14B">14B. Шотландский крепкий эль</string>
+<string name = "type_14C">14C. Шотландский экспортный эль</string>
+<string-array name="type_14_group">
+	<item>type_14A</item>
+	<item>type_14B</item>
+	<item>type_14C</item>
+</string-array><string name = "type_15">15. Ирландское пиво</string>
+<string name = "type_15A">15A. Ирландский красный эль</string>
+<string name = "type_15B">15B. Ирландский стаут</string>
+<string name = "type_15C">15C. Ирландский экстра-стаут</string>
+<string-array name="type_15_group">
+	<item>type_15A</item>
+	<item>type_15B</item>
+	<item>type_15C</item>
+</string-array><string name = "type_16">16. Темное британское пиво</string>
+<string name = "type_16A">16A. Сладкий стаут</string>
+<string name = "type_16B">16B. Овсяный стаут</string>
+<string name = "type_16C">16C. Тропический стаут</string>
+<string name = "type_16D">16D. Зарубежный экстра-стаут</string>
+<string-array name="type_16_group">
+	<item>type_16A</item>
+	<item>type_16B</item>
+	<item>type_16C</item>
+	<item>type_16D</item>
+</string-array><string name = "type_17">17. Крепкое британское пиво</string>
+<string name = "type_17A">17A. Британский крепкий эль</string>
+<string name = "type_17B">17B. Старый эль</string>
+<string name = "type_17C">17C. Ви-хэви</string>
+<string name = "type_17D">17D. Английский барливайн</string>
+<string-array name="type_17_group">
+	<item>type_17A</item>
+	<item>type_17B</item>
+	<item>type_17C</item>
+	<item>type_17D</item>
+</string-array><string name = "type_18">18. Светлый американский эль</string>
+<string name = "type_18A">18A. Блонд-эль</string>
+<string name = "type_18B">18B. Американский пейл-эль</string>
+<string-array name="type_18_group">
+	<item>type_18A</item>
+	<item>type_18B</item>
+</string-array><string name = "type_19">19. Светлое и коричневое американское пиво</string>
+<string name = "type_19A">19A. Американский амбер-эль</string>
+<string name = "type_19B">19B. Калифорнийское обычное</string>
+<string name = "type_19C">19C. Американский браун-эль</string>
+<string-array name="type_19_group">
+	<item>type_19A</item>
+	<item>type_19B</item>
+	<item>type_19C</item>
+</string-array><string name = "type_20">20. Американский портер и стаут</string>
+<string name = "type_20A">20A. Американский портер</string>
+<string name = "type_20B">20B. Американский стаут</string>
+<string name = "type_20C">20C. Имперский стаут</string>
+<string-array name="type_20_group">
+	<item>type_20A</item>
+	<item>type_20B</item>
+	<item>type_20C</item>
+</string-array><string name = "type_21">21. ИПА</string>
+<string name = "type_21A">21A. Американский IPA</string>
+<string name = "type_21B">21B. Specialty IPA</string>
+<string-array name="type_21_group">
+	<item>type_21A</item>
+	<item>type_21B</item>
+</string-array><string name = "type_22">22. Крепкий американский эль</string>
+<string name = "type_22A">22A. Двойной IPA</string>
+<string name = "type_22B">22B. Американский крепкий эль</string>
+<string name = "type_22C">22C. Американский барливайн</string>
+<string name = "type_22D">22D. Пшеничное вино (витвайн)</string>
+<string-array name="type_22_group">
+	<item>type_22A</item>
+	<item>type_22B</item>
+	<item>type_22C</item>
+	<item>type_22D</item>
+</string-array><string name = "type_23">23. Европейский кислый эль</string>
+<string name = "type_23A">23A. Берлинер-вайссе</string>
+<string name = "type_23B">23B. Фламандский красный эль</string>
+<string name = "type_23C">23C. Фламандский коричневый эль</string>
+<string name = "type_23D">23D. Ламбик</string>
+<string name = "type_23E">23E. Гозе</string>
+<string name = "type_23F">23F. Фруктовый ламбик</string>
+<string-array name="type_23_group">
+	<item>type_23A</item>
+	<item>type_23B</item>
+	<item>type_23C</item>
+	<item>type_23D</item>
+	<item>type_23E</item>
+	<item>type_23F</item>
+</string-array><string name = "type_24">24. Бельгийский эль</string>
+<string name = "type_24A">24A. Витбир (Бланш)</string>
+<string name = "type_24B">24B. Бельгийский пейл-эль</string>
+<string name = "type_24C">24C. Бьер-де-гард</string>
+<string-array name="type_24_group">
+	<item>type_24A</item>
+	<item>type_24B</item>
+	<item>type_24C</item>
+</string-array><string name = "type_25">25. Крепкий бельгийский эль</string>
+<string name = "type_25A">25A. Бельгийский блонд-эль</string>
+<string name = "type_25B">25B. Сэзон</string>
+<string name = "type_25C">25C. Бельгийский золотой крепкий эль</string>
+<string-array name="type_25_group">
+	<item>type_25A</item>
+	<item>type_25B</item>
+	<item>type_25C</item>
+</string-array><string name = "type_26">26. Траппистский эль</string>
+<string name = "type_26A">26A. Траппистский обычный эль</string>
+<string name = "type_26B">26B. Бельгийский дуббель</string>
+<string name = "type_26C">26C. Бельгийский трипель</string>
+<string name = "type_26D">26D. Бельгийский темный крепкий эль</string>
+<string-array name="type_26_group">
+	<item>type_26A</item>
+	<item>type_26B</item>
+	<item>type_26C</item>
+	<item>type_26D</item>
+</string-array><string name = "type_27">27. Историческое пиво</string>
+<string name = "type_27A">27A. Gose</string>
+<string name = "type_27B">27B. Кентуккское обычное</string>
+<string name = "type_27C">27C. Лихтенхайнер</string>
+<string name = "type_27D">27D. Лондонский браун-эль</string>
+<string name = "type_27E">27E. Гродзисское пиво</string>
+<string name = "type_27F">27F. «Досухозаконный» лагер</string>
+<string name = "type_27G">27G. «Досухозаконный» портер</string>
+<string name = "type_27H">27H. Роггенбир</string>
+<string name = "type_27I">27I. Сахти</string>
+<string-array name="type_27_group">
+	<item>type_27A</item>
+	<item>type_27B</item>
+	<item>type_27C</item>
+	<item>type_27D</item>
+	<item>type_27E</item>
+	<item>type_27F</item>
+	<item>type_27G</item>
+	<item>type_27H</item>
+	<item>type_27I</item>
+</string-array><string name = "type_28">28. Американский дикий эль</string>
+<string name = "type_28A">28A. Бреттовое пиво</string>
+<string name = "type_28B">28B. Кислое пиво смешанного брожения</string>
+<string name = "type_28C">28C. Особое дикое пиво</string>
+<string-array name="type_28_group">
+	<item>type_28A</item>
+	<item>type_28B</item>
+	<item>type_28C</item>
+</string-array><string name = "type_29">29. Фруктовое пиво</string>
+<string name = "type_29A">29A. Фруктовое пиво</string>
+<string name = "type_29B">29B. Пиво с фруктами и пряностями</string>
+<string name = "type_29C">29C. Особое фруктовое пиво</string>
+<string-array name="type_29_group">
+	<item>type_29A</item>
+	<item>type_29B</item>
+	<item>type_29C</item>
+</string-array><string name = "type_30">30. Пиво со специями</string>
+<string name = "type_30A">30A. Пиво с пряностями, травами, овощами</string>
+<string name = "type_30B">30B. Осеннее сезонное пиво</string>
+<string name = "type_30C">30C. Зимнее сезонное пиво</string>
+<string-array name="type_30_group">
+	<item>type_30A</item>
+	<item>type_30B</item>
+	<item>type_30C</item>
+</string-array><string name = "type_31">31. Пиво альтернативного брожения</string>
+<string name = "type_31A">31A. Пиво с альтернативным зерном</string>
+<string name = "type_31B">31B. Пиво с альтернативными сахарами</string>
+<string-array name="type_31_group">
+	<item>type_31A</item>
+	<item>type_31B</item>
+</string-array><string name = "type_32">32. Копченое пиво</string>
+<string name = "type_32A">32A. Классическое копченое пиво</string>
+<string name = "type_32B">32B. Особое копченое пиво</string>
+<string-array name="type_32_group">
+	<item>type_32A</item>
+	<item>type_32B</item>
+</string-array><string name = "type_33">33. Выдержанное пиво</string>
+<string name = "type_33A">33A. Выдержанное в дереве пиво</string>
+<string name = "type_33B">33B. Особое выдержанное в дереве пиво</string>
+<string-array name="type_33_group">
+	<item>type_33A</item>
+	<item>type_33B</item>
+</string-array><string name = "type_34">34. Специальное пиво</string>
+<string name = "type_34A">34A. Clone Beer</string>
+<string name = "type_34B">34B. Mixed-Style Beer</string>
+<string name = "type_34C">34C. Experimental Beer</string>
+<string-array name="type_34_group">
+	<item>type_34A</item>
+	<item>type_34B</item>
+	<item>type_34C</item>
+</string-array><string-array name="group_ids">
+	<item>type_1</item>
+	<item>type_2</item>
+	<item>type_3</item>
+	<item>type_4</item>
+	<item>type_5</item>
+	<item>type_6</item>
+	<item>type_7</item>
+	<item>type_8</item>
+	<item>type_9</item>
+	<item>type_10</item>
+	<item>type_11</item>
+	<item>type_12</item>
+	<item>type_13</item>
+	<item>type_14</item>
+	<item>type_15</item>
+	<item>type_16</item>
+	<item>type_17</item>
+	<item>type_18</item>
+	<item>type_19</item>
+	<item>type_20</item>
+	<item>type_21</item>
+	<item>type_22</item>
+	<item>type_23</item>
+	<item>type_24</item>
+	<item>type_25</item>
+	<item>type_26</item>
+	<item>type_27</item>
+	<item>type_28</item>
+	<item>type_29</item>
+	<item>type_30</item>
+	<item>type_31</item>
+	<item>type_32</item>
+	<item>type_33</item>
+	<item>type_34</item>
+</string-array>
+</resources>

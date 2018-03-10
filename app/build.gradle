@@ -8,8 +8,9 @@ android {
         applicationId "com.sonicse.bjcp"
         minSdkVersion 14
         targetSdkVersion 27
-        versionCode 8
-        versionName "1.5"
+        versionCode 9
+        versionName "2.0"
+        vectorDrawables.useSupportLibrary = true
     }
     buildTypes {
         release {
@@ -23,7 +24,6 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:27.0.2'
     compile 'com.android.support:recyclerview-v7:27.0.2'
-//    compile 'com.bettervectordrawable:lib:0.8'
     compile 'com.android.support:design:27.0.2'
     compile 'com.google.code.gson:gson:2.8.0'
 }
